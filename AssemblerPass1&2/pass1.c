@@ -3,7 +3,8 @@
 #include<string.h>
 void main()
 {
- char opcode[10],operand[10],label[10],code[10][10],ch; char mnemonic[10][10]={"START","LDA","STA","LDCH","STCH","END"};
+ char opcode[10],operand[10],label[10],code[10][10],ch;
+ char mnemonic[10][10]={"START","LDA","STA","LDCH","STCH","END"};
  int locctr,start,len,i=0,j=0;
  FILE *fp1,*fp2,*fp3;
  clrscr();
